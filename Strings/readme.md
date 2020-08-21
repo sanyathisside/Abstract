@@ -26,4 +26,6 @@
 
 <hr/>
 
+ * To delete a particular element from the whole string use: `str.erase (std::remove(str.begin(), str.end(), 'element'), str.end());` (header used: algorithm)
+
  
