@@ -83,3 +83,6 @@
  #### 3. Why is Heapsort not used in place of Quicksort when the partition size is under the limit ?
   * This question is same as why Quicksort generally outperforms Heapsort ?
       * The answer is, although Heapsort also being O(N log N) in average as well as worse case and O(1) space also, we still don’t use it when the partition size is under the limit because the extra hidden constant factor in Heapsort is quite larger than that of Quicksort.
+
+ #### 4. Why Quick Sort is preferred over MergeSort for sorting Arrays?
+  * Quick Sort in its general form is an in-place sort (i.e. it doesn’t require any extra storage) whereas merge sort requires O(N) extra storage, N denoting the array size which may be quite expensive. Allocating and de-allocating the extra space used for merge sort increases the running time of the algorithm. Comparing average complexity we find that both type of sorts have O(NlogN) average complexity but the constants differ. For arrays, merge sort loses due to the use of extra O(N) storage space.
