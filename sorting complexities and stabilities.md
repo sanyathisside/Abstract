@@ -67,6 +67,12 @@
 ### Introsort: 
  * A hybrid sorting algorithm which uses three sorting algorithm to minimise the running time, Quicksort, Heapsort and Insertion Sort.
  * Introsort begins with quicksort and if the recursion depth goes more than a particular limit it switches to Heapsort to avoid Quicksort’s worse case O(N2) time complexity. It also uses insertion sort when the number of elements to sort is quite less.
+ * Stable: Since Quicksort is also not stable so Introsort is also not stable.
+ * Time Complexity
+     * Best Case – O(N log N)
+     * Average Case- O(N log N)
+     * Worse Case- O(N log N)
+ * Auxiliary Space: Just like quicksort, it may use O(log N) auxiliary recursion stack space.
 
 
 
