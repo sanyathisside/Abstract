@@ -17,7 +17,7 @@ public:
 
    void disp(){
 
-      cout<<"Function of Parent Class";
+   cout<<"Function of Parent Class";
 
    }
 
@@ -29,7 +29,7 @@ public:
 
    void disp() {
 
-      cout<<"Function of Child Class";
+   cout<<"Function of Child Class";
 
    }
 
